@@ -45,10 +45,10 @@ type ListUnprocessedShipmentsFilter struct {
 	CutoffTo time.Time `json:"cutoff_to"`
 
 	// Minimum date when shipment should be handed over for delivery
-	DeliveringDateFrom time.Time `json:"delivering_date_from"`
+	//DeliveringDateFrom time.Time `json:"delivering_date_from"`
 
 	// Maximum date when shipment should be handed over for delivery
-	DeliveringDateTo time.Time `json:"delivering_date_to"`
+	//DeliveringDateTo time.Time `json:"delivering_date_to"`
 
 	// Delivery method identifier
 	DeliveryMethodId []int64 `json:"delivery_method_id"`
