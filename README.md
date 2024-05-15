@@ -16,7 +16,7 @@ Get Client-Id and Api-Key in your seller profile [here](https://seller.ozon.ru/a
 
 Just add dependency to your project and you're ready to go.
 ```bash
-go get github.com/diphantxm/ozon-api-client
+go get github.com/kodji/ozon-api-client
 ```
 A simple example on how to use this library:
 ```Golang
@@ -28,7 +28,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/diphantxm/ozon-api-client/ozon"
+	"github.com/kodji/ozon-api-client/ozon"
 )
 
 func main() {
@@ -67,7 +67,7 @@ package main
 import (
 	"log"
 
-	"github.com/diphantxm/ozon-api-client/ozon/notifications"
+	"github.com/kodji/ozon-api-client/ozon/notifications"
 )
 
 func main() {
